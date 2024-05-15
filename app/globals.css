@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-[#fff] overflow-x-hidden xl:mt-[106px]
+}
+
+html{
+  @apply overflow-x-hidden
+}
+
+.active{
+  @apply tracking-wide font-bold text-[#ff0187]
+}
