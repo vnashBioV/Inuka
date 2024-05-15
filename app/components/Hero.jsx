@@ -29,9 +29,9 @@ const Hero = () => {
         whileInView={'show'}
         viewport={{once: false, amount: 0.3}} 
       >
-        <div className='flex flex-col gap-7 justify-end w-[90%]'>
-          <h3 className='md:text-[4rem] text-[3rem] font-[600] leading-[71px]'>Inuka Products brought <br  className='xl:flex hidden'/> <span className='text-[#ff0187]'>to you by Priscilla</span></h3>
-          <p className='text-[1.4rem] mt-6'>
+        <div className='flex flex-col gap-7 justify-end md:w-[90%] w-full'>
+          <h3 className='md:text-[4rem] text-[2.2rem] md:leading-[71px] font-[600] leading-[50px]'>Inuka Products brought <br  className='xl:flex hidden'/> <span className='text-[#ff0187]'>to you by Priscilla</span></h3>
+          <p className='md:text-[1.4rem] text-[1rem] mt-6'>
             Nothing grabs attention like scent... <br className='xl:flex hidden'/> Smell amazing with Inuka Perfumes for <b>R195</b> each
           </p>
           <Link
